@@ -15,7 +15,7 @@ A Chrome Manifest V3 extension that **instantly detects quiz questions** on any 
 1. Open Chrome → go to `chrome://extensions/`
 2. Enable **Developer mode** (top-right toggle)
 3. Click **"Load unpacked"**
-4. Select this folder (`quiz-solver-extension/`)
+4. Select this folder (`moodle-quiz-assistant`)
 
 ### 3. Add Your API Key
 1. Click the **⚡ QuizSnipe** icon in your toolbar
@@ -52,7 +52,7 @@ A Chrome Manifest V3 extension that **instantly detects quiz questions** on any 
 ## 🔧 Files
 
 ```
-quiz-solver-extension/
+moodle-quiz-assistant/
 ├── manifest.json      # MV3 extension config
 ├── background.js      # Service worker — handles Groq API calls
 ├── content.js         # Question detection + UI injection
@@ -96,3 +96,7 @@ model: "llama-3.3-70b-versatile"  // fastest/smartest
 - Works best on **radio button quizzes** (single correct answer)
 - For canvas-based quiz platforms (locked-down browsers), detection may be limited
 - If a question isn't detected, try clicking **Scan ↺** after the page fully loads
+
+  ## 👤 Author
+Built by [Ayar Suresh]  
+Email : ayar.sys@gmail.com
