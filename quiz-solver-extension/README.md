@@ -97,6 +97,6 @@ model: "llama-3.3-70b-versatile"  // fastest/smartest
 - For canvas-based quiz platforms (locked-down browsers), detection may be limited
 - If a question isn't detected, try clicking **Scan ↺** after the page fully loads
 
-  ## 👤 Author
+## 👤 Author
 Built by [Ayar Suresh]  
 Email : ayar.sys@gmail.com
